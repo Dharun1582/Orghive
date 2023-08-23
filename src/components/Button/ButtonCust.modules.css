@@ -1,0 +1,26 @@
+.button-cust {
+    background-color: #ffffff;
+    color: #1492cc;
+    border: 3px solid #1492cc;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 4px 10px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    border-radius: 60px;
+}
+
+.button-cust:hover {
+    background-color: #1492cc;
+    color: white;
+    border: 3px solid white;
+}
+
+.icon{
+    margin-right: 10px;
+}

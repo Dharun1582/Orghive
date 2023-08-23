@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Mali&family=Pacifico&display=swap');
+
+body{
+    margin:0;
+    height:100%;
+    width:100%;
+}
+.headerText{
+    font-family: 'Itim', cursive;
+    font-size: large;
+    color:white;
+    text-align: center;
+    margin: 8vh auto;
+    width:60%;
+}
+.headerText h4{
+    font-family: 'Ubuntu', sans-serif;
+}
+.header{
+    margin:0;
+    padding: 0;
+    height: 75vh;
+    width: 100%;
+    background: linear-gradient(-45deg,#f3497c,#f51269 ,#e73c7e, #23a6d5,#1492cc ,#318ef8);
+    background-size: 400% 400%;
+    animation: gradientBG 20s linear infinite;
+}
+.button{
+    text-align: center;
+    margin: auto;
+}
+.features-container{
+    background-color: rgb(255, 255, 255);
+    height: 65vh;
+    width: 100%;
+    border-top: 3px solid #f51269;
+}
+.features{
+    width: 80%;
+    padding: 7%;
+    margin: auto;
+    display: flex;
+}
+.features div{
+    height: 40vh;
+    flex-direction: row;
+    width: 25%;
+    margin: auto;
+    color:rgb(102, 102, 102);
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.7;
+}
+.features h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#1492cc
+}
+.icons{
+    color:#f51269;
+}
+.image{
+    position: relative;
+    max-height: 75vh;
+    overflow: hidden;
+}
+.image img{
+    width:100%;
+    filter: blur(5px);
+}
+.imageContent{
+    padding-top: 10vh;
+    width: 80%;
+    margin-left: 10%;
+    font-weight: bolder;
+    font-size: 30px;
+    position: absolute;
+    font-family: 'Mali', cursive;
+    top: 0;
+    z-index: 1;
+    color:rgb(255, 255, 255);
+}
+.certificate{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: 1000;
+}
+.certificate img{
+    width:12%;
+    margin: 0 15px;
+    filter: none;
+}
+.gallery{
+    background-color: white;
+    padding: 40px 0;
+    height: 80vh;
+    color: #f51269;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-shadow: 3px 3px 3px #1492cc;
+}
+.galleryInDiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 55%;
+    margin: 25px auto;
+}
+.galleryInDiv div{
+    margin: 5px auto;
+}
+.galleryInDiv img{
+    width: 35vh;
+    height: 20vh;
+}
+.galleryInDiv img:hover{
+    box-shadow: 4px 4px 4px black;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

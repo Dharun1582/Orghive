@@ -1,0 +1,15 @@
+.Lfoot{
+    height: 20vh;
+    padding: 5% 10%;
+    background-color: #1492cc;
+    color : white;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px #f51269;
+    border-top: 3px solid #f51269;
+}
+.footerIcon{
+    margin: 0 15px;
+    color:#f51269; 
+}
